@@ -43,7 +43,7 @@ class PantallaLogin extends StatelessWidget {
                   decoration: InputDecoration(
                     labelText: 'Contraseña',
                     border: OutlineInputBorder(),
-                    prefixIcon: Icon(Icons.person),
+                    prefixIcon: Icon(Icons.lock),
                   ),
                 ),
                 const SizedBox(height: 40),

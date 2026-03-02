@@ -20,14 +20,13 @@ class InfoPagina extends StatelessWidget {
             ),
             const SizedBox(height: 30),
             Wrap(
+              spacing: 20,
+              runSpacing: 20,
               alignment: WrapAlignment.center,
               children: [
                 botonCuadrado(context, '9:00-10:00 AM'),
-                const SizedBox(width: 50),
                 botonCuadrado(context, '10:00-11:00 AM'),
-                const SizedBox(width: 50),
                 botonCuadrado(context, '11:00-12:00 PM'),
-                const SizedBox(width: 50),
                 botonCuadrado(context, '2:00-3:00 PM'),
               ],
             ),
