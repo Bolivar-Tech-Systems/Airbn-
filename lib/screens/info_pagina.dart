@@ -19,8 +19,8 @@ class InfoPagina extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 30),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            Wrap(
+              alignment: WrapAlignment.center,
               children: [
                 botonCuadrado(context, '9:00-10:00 AM'),
                 const SizedBox(width: 50),

@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
-import 'horario.dart';
+import 'package:flutter_application_1/screens/pantalla_login.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Horario());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Mi Proyecto',
+
+      home: PantallaLogin(),
+    );
   }
 }
