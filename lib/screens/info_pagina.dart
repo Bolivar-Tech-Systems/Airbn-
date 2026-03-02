@@ -22,13 +22,13 @@ class InfoPagina extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                botonCuadrado(context, "9:00-10:00 AM"),
+                botonCuadrado(context, '9:00-10:00 AM'),
                 const SizedBox(width: 50),
-                botonCuadrado(context, "10:00-11:00 AM"),
+                botonCuadrado(context, '10:00-11:00 AM'),
                 const SizedBox(width: 50),
-                botonCuadrado(context, "11:00-12:00 PM"),
+                botonCuadrado(context, '11:00-12:00 PM'),
                 const SizedBox(width: 50),
-                botonCuadrado(context, "2:00-3:00 PM"),
+                botonCuadrado(context, '2:00-3:00 PM'),
               ],
             ),
           ],
@@ -47,7 +47,7 @@ Widget botonCuadrado(BuildContext context, String texto) {
     onPressed: () {
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(const SnackBar(content: Text("Horario seleccionado")));
+      ).showSnackBar(const SnackBar(content: Text('Horario seleccionado')));
     },
     child: Text(texto),
   );

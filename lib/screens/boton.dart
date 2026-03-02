@@ -12,7 +12,7 @@ class MiCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        border: Border.all(color: const Color.fromARGB(243, 255, 254, 254)),
+        border: Border.all(color: const Color.fromARGB(255, 255, 255, 255)),
         borderRadius: BorderRadius.circular(0),
       ),
       child: Column(
